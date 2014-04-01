@@ -2,6 +2,10 @@
 
 *__"Sorted"__: British informal: dealt with satisfactorily*
 
+[![Build Status](https://travis-ci.org/gitterHQ/sorted.png?branch=master)](https://travis-ci.org/gitterHQ/sorted)
+[![Testling](https://ci.testling.com/gitterHQ/sorted.png)](https://ci.testling.com/gitterHQ/sorted)
+
+
 Sorted is a tiny mixin for CollectionViews and CompositeViews in __[Marionette.JS](http://marionettejs.com/)__ which allows the order of the underlying collection to be maintained in the view.
 
 ## Usage
