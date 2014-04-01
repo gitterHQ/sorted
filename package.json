@@ -1,0 +1,48 @@
+{
+  "name": "sorted",
+  "version": "0.0.1",
+  "description": "Mixin for Marionette CollectionView and CompositeView for sorted collections",
+  "main": "lib/sorted.js",
+  "scripts": {
+    "test": "phantomjs phantom.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gitterHQ/sorted.git"
+  },
+  "author": "Andrew Newdigate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitterHQ/sorted/issues"
+  },
+  "homepage": "https://github.com/gitterHQ/sorted",
+  "devDependencies": {
+    "jstest": "~1.0.4",
+    "wake": "~0.3.1",
+    "component": "^0.19.8"
+  },
+  "wake": {
+    "javascript": {
+      "sourceDirectory": "lib",
+      "targetDirectory": "bin",
+      "targets": {
+        "sorted.js": [
+          "sorted.js"
+        ]
+      }
+    }
+  },
+  "testling": {
+    "html": "tests/browser.html",
+    "browsers": [
+      "ie/9..latest",
+      "chrome/23..latest",
+      "firefox/22..latest",
+      "safari/latest",
+      "opera/latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android-browser/latest"
+    ]
+  }
+}

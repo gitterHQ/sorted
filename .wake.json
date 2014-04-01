@@ -1,0 +1,12 @@
+{
+  "javascript": {
+    "sorted.js": {
+      "sources": [
+        "lib/sorted.js"
+      ],
+      "targets": {
+        "min": "bin/sorted.js"
+      }
+    }
+  }
+}
