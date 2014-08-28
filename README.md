@@ -2,7 +2,7 @@
 
 *__"Sorted"__: British informal: dealt with satisfactorily*
 
-[![Build Status](https://travis-ci.org/gitterHQ/sorted.png?branch=master)](https://travis-ci.org/gitterHQ/sorted)
+[![Build Status](https://travis-ci.org/gitterHQ/sorted.svg?branch=master)](https://travis-ci.org/gitterHQ/sorted)
 [![Testling](https://ci.testling.com/gitterHQ/sorted.png)](https://ci.testling.com/gitterHQ/sorted)
 
 
