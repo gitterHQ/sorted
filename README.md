@@ -23,7 +23,7 @@ Although personally, we prefer using [__cocktail__](https://github.com/onsi/cock
 ```
 var MyCollectionView = Marionette.CollectionView.extend({
 });
-cocktail.mixin(MyCollectionView, SortedMixin);
+Cocktail.mixin(MyCollectionView, SortedMixin);
 ```
 
 Once the mixin has been installed the collectionview will always maintain the order of the underlying collection.
